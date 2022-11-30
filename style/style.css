@@ -1,0 +1,77 @@
+body {
+    background: black;
+	text-align: center;
+    margin-top: 10vh;
+	
+}
+#Card {
+	background:url(img/bigben.png);
+	background-size: cover;
+    margin: 0 30% 30px;
+    padding: 7%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+
+#Counter {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #FF00FF;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+input {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: larger;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: whitesmoke;
+    border-radius: 5px;
+}
+button {
+    margin-bottom: 15px;
+}
+.title {
+    font-size: x-large;
+    color: #F5FFFA;
+    margin-bottom: 10px;
+}
+.scCounter {
+    font-size: x-large;
+    font-weight: bold;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#True {
+    color: green;
+    margin-right: 10%;
+	
+}
+#False {
+    color: red;
+    margin-left: 10%;
+	
+}
+.Window{
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    overflow: clip;
+    width: 50vw;
+    height: 100vh;
+    left: 25%;
+    top: 0;
+}
+.modal{
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    padding: 30px;
+}
+#Message {
+    margin-bottom: 10px;
+    font-size: x-large;
+}
